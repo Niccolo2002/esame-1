@@ -1,0 +1,255 @@
+nav{
+    
+    height: 70px;
+    box-shadow: 0 13px 10px -10px grey; 
+    position: relative;
+
+}
+nav img{
+    height: 50px;
+    padding-left: 80px;
+    top: 10px;
+}
+nav div{
+    position: absolute;
+    top: 10px;
+    left: 75%;
+    top: -12%;
+}
+nav div i , p{
+    padding: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+nav div p{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+nav div h3{
+    
+    display: inline-block;
+    margin-left: 8px;
+    background-color: orange;
+    padding: 6px;
+    border-radius: 50%;
+    width: 22px;
+    text-align: center;
+    color: white;
+    
+}
+section{
+    display: flex;
+    
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 70em;
+}
+
+#post{
+    
+    width: 70%;
+    height: 70em;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+#social{
+    
+    height: 100%;
+    width: 39%;
+
+}
+#primo{
+    display: flex;
+    
+    width: 94%;
+    height: 17%;
+    
+    
+    
+}
+
+#primo h4{
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+#primo h2{
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+
+#primo p {
+    margin-top: 0.1em;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+#profilo{ 
+    height: 2em;
+    width: 2em;
+    border-radius: 3px;
+    
+    
+}
+#profilo img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+#nomeprofilo{
+    border: 2px solid black;
+
+}
+#profilo h4{
+    position: absolute;
+}
+#prova{
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+    
+}
+#prova > :first-child{
+    display: flex;
+}
+#foto{
+    
+    height: 100%;
+    width: 29%;
+}
+#foto img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#descrizione p{
+    margin-bottom: 2%;
+}
+#prova:nth-child(3){
+    margin-top: 3%;
+    margin-left: 3%;
+}
+#social{
+    border-left: solid gray 1px;
+    height: 100%;
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#social>:nth-child(1){
+    
+    margin-left: 3em;
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+#social>:nth-child(2){
+    
+    margin-left: 3em;
+    height: 17em;
+    margin-right: 7em;
+}
+
+#social>:nth-child(3){
+    
+    margin-left: 3em;
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+#mediumlogo{
+    height: 3em;
+    width: 14em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 3em;
+}
+
+#mediumlogo :nth-child(1){
+    
+    height: 3em;
+    width: 3em;
+}
+
+#mediumlogo :nth-child(2){
+    background-color: rgb(0, 204, 255);
+    height: 3em;
+    width: 3em;
+}
+
+.connect{
+    border: solid black 1px;
+    display: flex;
+    height: 2em;
+    width: 12em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+}
+
+.connect :nth-child(1){
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.connect p{
+    margin: 1em;
+    padding: 0;
+}
+
+.art{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.art p{
+    background-color: rgb(223, 217, 217);
+    padding: 0.5em;
+    border-radius: 1em;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+#verde{
+    height: 2.5em ;
+    display: flex;
+}
+#verde :nth-child(1){
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;  
+    margin-right: 1em;
+}
+
+#verde :nth-child(2) p,h4{
+
+    padding: 0;
+    margin: 0;
+    
+}
+#verde :nth-child(3) p{
+    height: 1em;
+border: solid;
+position: absolute;
+right: 6em;
+top: 43em;
+border-radius: 3em;
+}
